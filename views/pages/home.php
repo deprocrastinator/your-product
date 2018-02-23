@@ -1,5 +1,5 @@
 <header>
-    <a href='/your-product'>Home</a>
+    <a href='?'>Home</a>
     <a href='?controller=orders&action=index'>Orders</a>
 </header>
 
