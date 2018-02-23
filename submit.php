@@ -2,7 +2,7 @@
     //include "models/sumbit.php";
     //$submits = Submit::push();
 
-    $connection = mysqli_connect('localhost', 'root', '', 'orders');  
+    $connection = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'ba39226bd59afa', '69ccb870', 'heroku_43d912ec9eab9c4');  
     if(!$connection) die("Database connection failed");
 
     if(isset($_POST['submit'])) {
